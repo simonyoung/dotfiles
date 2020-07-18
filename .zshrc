@@ -1,14 +1,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="dpoggi"
-DISABLE_AUTO_UPDATE="true"
+ZSH_THEME="robbyrussell"
 
 # Disable marking untracked files under VCS as dirty. This makes
 # repository status check for large repositories much, much faster
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-plugins=(git)
+plugins=(git node npm npx vscode yarn)
 
 source $ZSH/oh-my-zsh.sh
 
