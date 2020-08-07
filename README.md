@@ -4,12 +4,12 @@ This repository contains my setup steps for a brand new Mac as well as my dotfil
 
 > There are lots of great setup and dotfiles repositories that I've taken inspriation from including:
 >
-> https://gitlab.com/dnsmichi/dotfiles
-> https://github.com/thoughtbot/laptop
+> * https://gitlab.com/dnsmichi/dotfiles
+> * https://github.com/thoughtbot/laptop
 >
 > My previous setup is archived here:
 >
-> https://github.com/simonyoung/benny/
+> * https://github.com/simonyoung/benny/
 
 Follow the instructions below on any Mac running Catalina or above 👍
 
