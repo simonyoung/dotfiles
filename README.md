@@ -19,11 +19,11 @@ Before I get started I install a few things manually to enable the rest of setup
 
 ### iTerm2
 
-Install `iTerm2` as a replacement for the default built-in Mac terminal.  Download it manually from the [website](https://www.iterm2.com).
+Install [iTerm2](https://www.iterm2.com) as a replacement for the default built-in Mac terminal.  Download it manually from the [iTerm website](https://www.iterm2.com).
 
 ### 1Password
 
-I use `1Password` to store all of my passwords, logins and other secure items across devices  Download it manually from the [website](https://1password.com).
+I use [1Password](https://1password.com) to store all of my passwords, logins and other secure items across devices  Download it manually from the [1Password website](https://1password.com).
 
 ### Git & Xcode
 
