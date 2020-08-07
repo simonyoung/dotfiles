@@ -18,5 +18,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## set git config
 
 git config --global user.name "Simon Young"
-git config --global user.email simon180@mac.com
+git config --global user.email "simon180@mac.com" 
 git config --global core.editor "nano"
