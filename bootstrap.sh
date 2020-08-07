@@ -15,3 +15,8 @@ brew install curl wget git
 ## oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+## set git config
+
+git config --global user.name "Simon Young"
+git config --global user.email simon180@mac.com
+git config --global core.editor "nano"
