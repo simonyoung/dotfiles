@@ -31,6 +31,11 @@ if ! brew info n &>/dev/null; then
     # Now install the LTS version of Node.js
     fancy_echo "Info: 'n' now installed, installing the latest Node.js LTS version ..."
     n lts
+    # Add Node.js to path
+    export PATH=$PATH:/usr/local/bin/node
+    # Now install Yarn
+    fancy_echo "Info: 'Installing Yarn ..."
+    curl -o- -L https://yarnpkg.com/install.sh | bash
 else
     # Check/update the LTS version of Node.js
     fancy_echo "Info: 'n' is already installed, updating to the latest Node.js LTS version ..."
