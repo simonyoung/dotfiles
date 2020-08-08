@@ -39,8 +39,4 @@ Clone dotfiles
 
 Run bootstrap
 
-==> No Casks to upgrade
-Error: caskroom/cask-cask was moved. Tap homebrew/cask-cask-cask instead.
-Updating Homebrew...
-
 Run sync
