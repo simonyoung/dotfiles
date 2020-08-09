@@ -11,12 +11,15 @@ function sync() {
         --exclude ".DS_Store" \
         --exclude ".macos" \
         --exclude "bootstrap.sh" \
+        --exclude "brew.sh" \
+        --exclude "sync.sh" \
         --exclude "README.md" \
         --exclude "LICENSE" \
+        --exclude "iterm.itermcolors" \
+        --exclude "iterm-preferences.json" \
         -avh --no-perms . ~;
 }
 
 sync
 
 unset sync;
-
