@@ -53,20 +53,34 @@ fi
 ###################
 
 # Install Visual Studio Code & the Code Settings extension to sync VS Code settings from GitHub
-if ! brew cask info visual-studio-code &>/dev/null; then
+if [ ! -d "$BREW_PREFIX/Caskroom/visual-studio-code" ]; then
     brew cask install visual-studio-code
     code --install-extension Shan.code-settings-sync
 else
     fancy_echo "Info: Visual Studio Code is already installed"
 fi
 
+# Install Postman
+if [ ! -d "$BREW_PREFIX/Caskroom/postman" ]; then
+    brew cask install postman
+else
+    fancy_echo "Info: Postman is already installed"
+fi
+
 # Install Alfred
-if ! brew cask info alfred &>/dev/null; then
+if [ ! -d "$BREW_PREFIX/Caskroom/alfred" ]; then
     brew cask install alfred
 else
     fancy_echo "Info: Alfred is already installed"
 fi
 # TODO Install Alfred workflows from backup
+
+# Install Kap for screen captures
+if [ ! -d "$BREW_PREFIX/Caskroom/kap" ]; then
+    brew cask install kap
+else
+    fancy_echo "Info: Kap is already installed"
+fi
 
 ###################
 #     Cleanup     #
