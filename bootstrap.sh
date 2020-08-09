@@ -12,7 +12,8 @@ brew tap homebrew/services
 
 brew install curl wget git
 
-## oh-my-zsh
+## set zsh as default + install oh-my-zsh
+chsh -s /bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ## set git config
