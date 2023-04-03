@@ -1,7 +1,10 @@
 #!/bin/zsh
 
 # This installs homebrew itself, and also the command line tools in silent mode
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/gbsimyou/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew update
 brew upgrade
